@@ -1,6 +1,0 @@
-import React, { useState } from 'react';
-const App = () => {
-  const [name, setName] = useState<string>('홍길동');
-  return <h1>{name}</h1>;
-};
-export default App;
